@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import {  Container } from 'react-bootstrap';
+import React from "react";
 import About from '../components/About/About';
 
 const Home = () => {

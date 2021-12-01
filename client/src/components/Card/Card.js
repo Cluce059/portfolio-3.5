@@ -1,17 +1,18 @@
 import React from "react";
 import {FaGithub} from 'react-icons/fa';
 import {MdExitToApp} from 'react-icons/md'; 
-import Boop from './Boop';
+import Boop from '../Boop';
 import { Card, Container } from 'react-bootstrap';
+import './card.css';
 
 const AppCard = (project) => {
 	//console.log(project.project.name);
 		return (
 		<Container>
-			<Card border="info" style={{ margin: '2rem' }} className="bg-dark text-white">
+			<Card border="info" style={{ margin: '2rem' }} className="bg-dark text-white" id="card-container">
 				<Card.Link href={project.project.link}>
-					<Card.Img   
-						src={require(`../assets/img/${project.project.img}.png`).default}
+					<Card.Img   id="card-img"
+						src={require(`../../assets/img/${project.project.img}.png`).default}
 						alt={project.project.alt}
 						key={project.project.name} >
 					</Card.Img>

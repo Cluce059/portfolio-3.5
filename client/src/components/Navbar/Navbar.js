@@ -1,13 +1,14 @@
-import React, { useState }  from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './navbar.css';
 
 const AppNavbar = () =>{
 
     return (
         <>
-      <Navbar id="navbar" bg='dark' variant='dark' expand='lg'>
+      <Navbar id="navbar" bg='dark' variant='dark' expand='lg' position='sticky'>
       <Container fluid className= "nav-wrapper">
       <Navbar.Toggle aria-controls='navbar' />
             <Navbar.Collapse id="menu">
