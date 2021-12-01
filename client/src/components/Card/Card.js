@@ -11,7 +11,7 @@ const AppCard = (project) => {
 		<Container>
 			<Card border="info" style={{ margin: '2rem' }} className="bg-dark text-white" id="card-container">
 				<Card.Link href={project.project.link}>
-					<Card.Img   id="card-img"
+					<Card.Img id="card-img" 
 						src={require(`../../assets/img/${project.project.img}.png`).default}
 						alt={project.project.alt}
 						key={project.project.name} >

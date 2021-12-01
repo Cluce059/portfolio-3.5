@@ -8,6 +8,7 @@ header img {
   display: block;
   width: 200px;
   border: 5px solid #fff;
+  border-radius: 15px 50px;
 }
 
 aside {
@@ -35,7 +36,7 @@ aside:hover {
 
 aside:hover header img {
   animation: profile_image 2000ms linear both;
-  animation-delay: 0.5s;
+  border-radius: 35px;
 }
 
 header {

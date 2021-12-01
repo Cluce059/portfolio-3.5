@@ -7,15 +7,15 @@ import Jumbotron from '../Jumbotron';
 function About(){
     return (
       <Jumbotron>
-        <aside class="profile-card">
+        <aside>
           <header>
             <a href="/">
-              <img src={pfp} alt='my project'/>
+              <img src={pfp} alt='my_pfp'/>
             </a>
             <h1>Caroline Luce</h1>
           </header>
           <div className="profile-bio">
-          <p>Hey there!</p>
+          <p style={{font:'rgb(121 250 204)'}}>Hey there!</p>
           </div>
         </aside>
         <Container >
