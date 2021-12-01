@@ -1,17 +1,47 @@
 import React from "react";
 import {FaGithub} from 'react-icons/fa';
 import {MdExitToApp} from 'react-icons/md'; 
-import Boop from '../Boop';
+import Boop from './Boop';
+import { Card, Container } from 'react-bootstrap';
 
-const Card = (project) => {
-	//double deconstruct idk wai
-   console.log(project.project.name);
-  return (
-	<div class="card-list">
+const AppCard = (project) => {
+	//console.log(project.project.name);
+		return (
+		<Container>
+			<Card border="info" style={{ margin: '2rem' }} className="bg-dark text-white">
+				<Card.Link href={project.project.link}>
+					<Card.Img   
+						src={require(`../assets/img/${project.project.img}.png`).default}
+						alt={project.project.alt}
+						key={project.project.name} >
+					</Card.Img>
+				</Card.Link>
+				<Card.Title key={project.project.name} style={{ margin: '1rem' }} > {project.project.name}</Card.Title>
+				<Card.Subtitle style={{ margin: '1rem' }}>{project.project.description}</Card.Subtitle>
+				<Card.Footer>
+					<Boop rotation={20} timing={200}> 
+						<a className="project-icon" href = {project.project.link}>
+							<MdExitToApp /> 
+						</a> 
+					</Boop>
+					<Boop rotation={20} timing={200}>
+						<a className="project-icon" href={project.project.repo}> 
+							<FaGithub /> 
+						</a>                                         
+					</Boop>
+				</Card.Footer>
+				</Card>
+			</Container>
+		);
+};
+
+export default AppCard;
+/*
+<div class="card-list">
 	<article class="card">
 	<figure class="card-image">
 		<img className="card-img"
-		   src={require(`../../assets/img/${project.project.img}.png`).default}
+		   src={require(`../assets/img/${project.project.img}.png`).default}
 		   alt={project.project.alt}
 		   key={project.project.name} 
 		   />
@@ -34,7 +64,4 @@ const Card = (project) => {
 	</div>
 </article>
 </div>
-  )
-};
-
-export default Card;
+*/

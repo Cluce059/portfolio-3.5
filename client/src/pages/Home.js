@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from "react";
-import {  Container, Card, CardColumns, Form, Button, Col } from 'react-bootstrap';
-import About from '../components/About';
+import {  Container } from 'react-bootstrap';
+import About from '../components/About/About';
 
 const Home = () => {
 
     return (
         <>
-        <Container>
             <About />
-        </Container>
         </>
     )
 };

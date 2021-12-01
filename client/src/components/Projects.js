@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { FlatList } from "react-native";
-import Card from '../Card';
+import React from "react";
+import Card from './Card';
+import {CardColumns, Container, Row } from 'react-bootstrap';
 
 function Projects (){
     const projects = [
@@ -56,22 +56,20 @@ function Projects (){
 
     return (
         <>
-      <section className="portfolio-section" id="portfolio">
-          <div  className="flex-row">
+        <Container style={{padding: '1.5rem'}}>
               <h2>Projects</h2>
-          </div>
-          <div className="flex-row">
-              <div className="card-div">
-            {projects.map((project) => (
+          </Container>
+        <Container>
+        <Row xs={1} md={2} className="g-4">
+        {projects.map((project) => (
                 <Card project ={project} />
             ))}
-            </div>
-            </div>
-    
-        </section>
+            </Row>
+        </Container>
         </>
     );
 };
+//<CardColumns style={{margin: '25px'}}>
 
 export default Projects;
 
