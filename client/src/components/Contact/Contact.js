@@ -13,7 +13,7 @@ function Contact(){
         resume: resume
     }
     return (
-      <Jumbotron>
+      <Jumbotron className="jumbo">
   <Container className="contact-container">
     <div class="text-center center-block" id="logo">
       <h1>Caroline Luce</h1>
@@ -25,7 +25,9 @@ function Contact(){
         <li><a href={links.linkedIn}><i><FaIcons.FaLinkedin /></i></a></li>
         <li><a href={links.github}><FaIcons.FaGitAlt /></a></li>
         <li><a href={links.stackOverflow}><FaIcons.FaStackOverflow /> </a></li>
-        <li><a href={links.resume}> <FaIcons.FaFileAlt /> Resume</a></li>
+        <div className="resume-div">
+        <li><a href={links.resume}> <FaIcons.FaFileAlt /> <span> Resume</span></a></li>
+        </div>
       </ul>
     </div>
   </Container>
