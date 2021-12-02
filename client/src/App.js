@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 //import Navbar2 from './components/Navbar2';
 import Footer from './components/Footer/Footer';
 import NoMatch from './pages/NoMatch';
-import About from'./pages/About';
+import MyWork from'./pages/MyWork';
 import ContactPage from './pages/ContactPage';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path='/' component={Home}/>
-          <Route exact path='/About' component={About}/>
+          <Route exact path='/mywork' component={MyWork}/>
           <Route exact path='/Contact' component={ContactPage}/>
           <Route component={NoMatch} />
           </Switch>

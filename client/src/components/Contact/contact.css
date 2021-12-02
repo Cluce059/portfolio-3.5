@@ -6,6 +6,11 @@ body {
     text-decoration: none;
     color: inherit;
   }
+
+  a:hover{
+    text-decoration: #74f2ce;
+    color:#74f2ce;
+  }
   
   .contact-links .fa-4x {
     vertical-align: middle;
@@ -36,7 +41,7 @@ body {
   }
   
   #logo {
-    background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);
+    background:  #af9fae 100%;
     border-radius: 15px 50px;
     border: solid rgb(49, 48, 48);
     color: #252525;
@@ -127,6 +132,10 @@ body {
     border-right: none;
   }
 
+h2, h4 {
+  padding: 10px;
+}
+
   @media only screen and (max-width: 770px) {
     .about-me img {
       display: block;
@@ -149,4 +158,10 @@ body {
       padding: 0 15px;
     }
   }
+  .contact-container:hover{
+    transition: all .2s ease-in-out;
+  }
   
+.contact-container:hover  {
+  transform: scale(1.1); 
+}

@@ -8,7 +8,7 @@ const AppNavbar = () =>{
 
     return (
         <>
-      <Navbar id="navbar" bg='dark' variant='dark' expand='lg' position='sticky'>
+      <Navbar id="navbar" variant='dark' expand='lg' position='sticky'>
       <Container fluid className= "nav-wrapper">
       <Navbar.Toggle aria-controls='navbar' />
             <Navbar.Collapse id="menu">
@@ -17,8 +17,8 @@ const AppNavbar = () =>{
                       Home
                     </Nav.Link>
                   <>
-                    <Nav.Link as={Link} to='/About'>
-                      See My work
+                    <Nav.Link as={Link} to='/mywork'>
+                      See my work
                     </Nav.Link>
                     <Nav.Link as={Link} to='/Contact'>
                       Contact

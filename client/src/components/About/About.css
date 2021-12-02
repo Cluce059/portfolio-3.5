@@ -2,18 +2,19 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
+*{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 header img {
   margin: 20px auto;
   display: block;
   width: 200px;
-  border: 5px solid #fff;
+  border: 2px solid rgb(12, 11, 11);
   border-radius: 15px 50px;
 }
 
 aside {
-  border-top: 0px solid #26a69a;
-  border-bottom: 0px solid #00695c;
   border-radius: 15px 50px;
   margin: 0 auto;
   display: block;
@@ -26,8 +27,7 @@ aside {
 }
 
 aside:hover {
-  border-top: 4px solid #382970;
-  border-bottom: 4px solid #382970;
+
   border-radius: 35px;
   height: 350px;
   width: 350px;
@@ -48,13 +48,12 @@ header h1 {
   text-align: center;
   color: #fff;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
-  font-size: 25px;
-  line-height: 25px;
+  font-size: 32px;
+  line-height: 32px;
   display: inline-block;
   padding: 10px;
   transition: all ease 0.25s;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+ 
 }
 
 aside:hover header h1 {
@@ -66,18 +65,18 @@ header h2 {
   text-align: center;
   color: #fff;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
-  font-size: 17px;
+  font-size: 24px;
   font-weight: normal;
   line-height: 0px;
   margin: 0;
 }
 
 .profile-bio {
-  margin-top: 20px;
-  padding: 1px 20px 10px 20px !important;
+  margin-top: 5px;
+  padding: 1px 10px 20px 1px !important;
   transition: all linear 1.5s;
   color: #fff;
-  font-size: 14px;
+  font-size: 24px;
   opacity: 0;
   background: linear-gradient(
     to bottom,
@@ -93,7 +92,7 @@ aside:hover .profile-bio {
 
 .profile-bio p:first-child {
   text-align: center;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .profile-social-links {
@@ -116,6 +115,13 @@ aside:hover .profile-social-links {
   border-radius: 50%;
   padding: 5px;
 }
+
+.about-container{
+  padding: 2rem;
+}
+
+
+
 /*PROFILE IMAGE ANIMATE */
 
 @keyframes profile_image {

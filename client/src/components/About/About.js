@@ -9,7 +9,7 @@ function About(){
       <Jumbotron>
         <aside>
           <header>
-            <a href="/">
+            <a hrek='/'>
               <img src={pfp} alt='my_pfp'/>
             </a>
             <h1>Caroline Luce</h1>
@@ -18,10 +18,10 @@ function About(){
           <p style={{font:'rgb(121 250 204)'}}>Hey there!</p>
           </div>
         </aside>
-        <Container >
-        <h2>- Full Stack Web Developer -</h2>
+        <Container className="about-container">
+        <h2>- Full Stack Developer -</h2>
            
-            <p>Boot Camp Sudent || Web Development || UCF Graduate || Environmental Science || Geostatistical Analysis</p>
+            <p>Boot Camp Graduate || Web Development || UCF Graduate || Environmental Science || Geostatistical Analysis</p>
           </Container>
         </Jumbotron>
     );

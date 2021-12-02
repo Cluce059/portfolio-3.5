@@ -14,10 +14,13 @@ function Contact(){
     }
     return (
       <Jumbotron>
-  <Container>
+  <Container className="contact-container">
     <div class="text-center center-block" id="logo">
       <h1>Caroline Luce</h1>
       <h4>Full Stack Web Developer</h4>
+      <Container>
+        <h3>Send me an email: <a href="mailto:cluce059@gmail.com">cluce059@gmail.com</a></h3>
+        </Container>
       <ul class="social">
         <li><a href={links.linkedIn}><i><FaIcons.FaLinkedin /></i></a></li>
         <li><a href={links.github}><FaIcons.FaGitAlt /></a></li>
