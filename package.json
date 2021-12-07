@@ -1,25 +1,31 @@
 {
-  "name": "portfolio3.5",
-  "version": "0.1.0",
-  "private": true,
+  "name": "portfolio",
+  "version": "3.5.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "watch": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
-    "@testing-library/jest-dom": "^5.15.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
+    "apollo-boost": "^0.4.9",
+    "bootstrap": "^4.4.1",
+    "dotenv": "^10.0.0",
     "react": "^17.0.2",
+    "react-art": "^17.0.2",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
-  },
-  "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:prod": "cd server && npm start",
-    "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "install": "cd server && npm i && cd ../client && npm i",
-    "seed": "cd server && npm run seed",
-    "build": "cd client && npm run build"
+    "react-icons": "^4.3.1",
+    "react-native": "^0.54.4",
+    "react-native-web": "^0.17.5",
+    "react-router-dom": "^5.3.0",
+    "react-router-native": "^6.0.2",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^2.1.2"
   },
   "eslintConfig": {
     "extends": [
@@ -46,13 +52,10 @@
   "bugs": {
     "url": "https://github.com/Cluce059/portfolio-3.5.git"
   },
-  "homepage": "https://github.com/Cluce059/portfolio-3.5.git#readme",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "devDependencies": {
     "concurrently": "^5.3.0",
     "nodemon": "^2.0.15"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }

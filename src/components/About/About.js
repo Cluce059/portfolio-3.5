@@ -9,7 +9,7 @@ function About(){
       <Jumbotron>
         <aside>
           <header>
-            <a hrek='/'>
+            <a href='/'>
               <img src={pfp} alt='my_pfp'/>
             </a>
             <h1>Caroline Luce</h1>
