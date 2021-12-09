@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+.pages {
+  color: pink;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 10%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

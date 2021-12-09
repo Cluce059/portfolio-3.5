@@ -22,12 +22,12 @@ const AppCard = (project) => {
 				<Card.Footer>
 					<Boop rotation={20} timing={200}> 
 						<a className="project-icon" href = {project.project.link}>
-							<MdExitToApp /> 
+							<MdExitToApp className="toggle-icon"/> 
 						</a> 
 					</Boop>
 					<Boop rotation={20} timing={200}>
 						<a className="project-icon" href={project.project.repo}> 
-							<FaGithub /> 
+							<FaGithub className="toggle-icon" /> 
 						</a>                                         
 					</Boop>
 				</Card.Footer>

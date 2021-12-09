@@ -1,9 +1,9 @@
 import React from "react";
-import {  Container} from 'react-bootstrap';
+import { Container} from 'react-bootstrap';
 import Projects from '../components/Projects';
 
 //import cards and map out in return stmnt
-const ProjectPage = () => {
+const AboutPage = () => {
 
     return (
         <>
@@ -14,4 +14,4 @@ const ProjectPage = () => {
     )
 };
 
-export default ProjectPage;
+export default AboutPage;

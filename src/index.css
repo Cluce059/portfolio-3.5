@@ -8,7 +8,7 @@ main {
   --primary: #623caf;
   --secondary: #32385D;
   --tertiary: #0f0533;
-  --gradient:  linear-gradient(0deg, #b4a1b4 0%, #96bbe1 100%);
+  --gradient: radial-gradient(circle, rgba(240,235,238,0.8802871490393032) 0%, rgba(184,197,211,1) 51%, rgba(184,206,230,0.9531162806919643) 105%);
 
   --light: #fafafa;
   --dark: #0f0a11;

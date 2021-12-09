@@ -1,10 +1,10 @@
 import React from 'react';
 import pfp from '../../assets/img/pfp.jpg';
-import './About.css';
+import './Home.css';
 import { Container } from 'react-bootstrap';
 import Jumbotron from '../Jumbotron';
 
-function About(){
+function Home(){
     return (
       <Jumbotron>
         <aside>
@@ -27,4 +27,4 @@ function About(){
     );
 }
 
-export default About;
+export default Home;
