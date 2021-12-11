@@ -2,10 +2,23 @@
         border-radius: 50px 15px;
 }
 
+.container:hover{
+    border: 1.5px black;
+}
+
 #card-img{
     border-radius:  50px 15px;
 }
 
 .toggle-icon{
     color: #8d858d;
+}
+
+.card-footer{
+    background: #252525;
+    border-radius:  50px 15px;
+}
+
+.card-footer:last-child {
+    border-radius: 50px 15px
 }

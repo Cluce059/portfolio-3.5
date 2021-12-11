@@ -19,7 +19,7 @@ function Home(){
           </div>
         </aside>
         <Container className="about-container">
-        <h2>- Full Stack Developer -</h2>
+        <h2>- Full Stack Developer(ReactJS/ ExpressJS) -</h2>
            
             <p>Boot Camp Graduate || Web Development || UCF Graduate || Environmental Science || Geostatistical Analysis</p>
           </Container>

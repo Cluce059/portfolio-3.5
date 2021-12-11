@@ -1,62 +1,111 @@
-body {
-    font-family: "Open Sans", sans-serif;
-  }
-  
+
   a {
     text-decoration: none;
     color: #252525;
+    font-size: inherit;
+  }
+
+  span{
+    color:#252525;
+  }
+
+  span:hover{
+    color:#252525;
   }
 
   a:hover{
-    color: rgb(129, 121, 121);
-  }
-  
-  #logo {
-    background:  #af9fae 100%;
-    border-radius: 15px 50px;
-    border: solid rgb(49, 48, 48);
-    color: #252525;
-    padding: 35px 0;
-    transition: all .2s ease-in-out; 
-    height: 450px;
-  }
-
-  #logo:hover {
-    border-radius: 15px;
-    transform: scale(1.1); 
-  }
-  
-  .social {
-    padding-top: 35px;
-    padding-left: 0px;
-    color: rgb(0, 135, 154);
+    color:#252525 ;
   }
   
   .social li {
     display: inline;
     padding: 20px;
-    font-size: 4rem;
+    font-size: inherit;
   }
   
-  .container {
-    width: 100%;
-  }
-
-h2, h4 {
+h1, h2, h3, h4 {
   padding: 10px;
 }
 
-.jumbo{
-  margin-bottom: 12rem;
+.btn-primary:hover {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
 }
 
-.resume-div {
-
+.contact-btn {
+    margin: 5px;
+    font-size: 22px;
+    background-color: #afb8c256;
+    border-color: transparent;
 }
 
-.resume-div a svg{
-  margin: 0 auto;
+.contact-btn {
+  color:#454545;
+  background:transparent;
+  border-width:2px;
+  border-style: solid;
+  position:relative;
+  margin:1em;
+  display:inline-block;
+  padding:0.5em 1em;
+  transition:all 0.3s ease-in-out;
+  text-align:center;
+  font-weight:bold;
 }
 
-.resume-div a span{
+.contact-btn:focus{
+   outline: none;
+   border: transparent;
+   background: transparent;
+}
+.contact-btn:before, button:after {
+    content:'';
+    display:block;
+    position:absolute;
+    border-color:#454545;
+    box-sizing:border-box;
+    border-style:solid;
+    width:1em;
+    height:1em;
+    transition:all 0.4s ease-in-out
+  }
+  .contact-btn:before {
+    top:-6px;
+    left:-6px;
+    border-width:2px 0 0 2px;
+    z-index:5;
+  }
+  .contact-btn:after {
+    bottom:-6px;
+    right:-6px;
+    border-width:0 2px 2px 0;
+  }
+  .contact-btn:hover:before, .contact-btn:hover:after {
+    width:calc(100% + 12px);
+    height:calc(100% + 12px);
+    border-color:transparent;
+  }
+  .contact-btn:hover {
+    color:#353535;
+    background-color: transparent;
+    border-color:#353535;
+  }
+
+.btn-border {
+  border-color:transparent;
+  color:#999
+}
+.btn-border {
+  border-color:transparent;
+  background-color:transparent;
+  color:#353535
+}
+.btn-border:before, .btn-border:after {
+  border-color:transparent;
+}
+.btn-border:hover:before, .btn-border:hover:after {
+  width:calc(100% + 12px); 
+  height:calc(100% + 12px);
+  border-color:transparent;
 }

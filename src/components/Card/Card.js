@@ -8,7 +8,7 @@ import './card.css';
 const AppCard = (project) => {
 	//console.log(project.project.name);
 		return (
-		<Container>
+		<Container className="container">
 			<Card border="info" style={{ margin: '2rem' }} className="bg-dark text-white" id="card-container">
 				<Card.Link href={project.project.link}>
 					<Card.Img id="card-img" 
@@ -19,7 +19,7 @@ const AppCard = (project) => {
 				</Card.Link>
 				<Card.Title key={project.project.name} style={{ margin: '1rem' }} > {project.project.name}</Card.Title>
 				<Card.Subtitle style={{ margin: '1rem' }}>{project.project.description}</Card.Subtitle>
-				<Card.Footer>
+				<Card.Footer className="card-footer">
 					<Boop rotation={20} timing={200}> 
 						<a className="project-icon" href = {project.project.link}>
 							<MdExitToApp className="toggle-icon"/> 

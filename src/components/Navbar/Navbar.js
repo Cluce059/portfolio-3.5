@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css';
-import Logo from '../Logo/Logo.js';
 import { NavLink } from 'react-router-dom';
 import { FaGripLines, FaTimes } from 'react-icons/fa';
 
@@ -9,6 +8,7 @@ function AppNavbar(){
     const [click, setClick] = useState(false);
 
     const handleClick =() => setClick(!click);
+    
     return (
         <>
       <div className="navbar">

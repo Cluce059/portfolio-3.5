@@ -20,9 +20,8 @@ return (
 
             <ul>
                 <li>
-                    <a href={links.github} > <FaIcons.FaGitAlt /> Github</a>
-                </li>
-                <li >
+                        <a href={links.github} className=""> <FaIcons.FaGitAlt /> Github</a>                                    </li>
+                <li>
                     <a href={links.linkedIn}> <FaIcons.FaLinkedin /> LinkedIn</a>
                 </li>
                 <li>

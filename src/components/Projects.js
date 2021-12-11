@@ -14,7 +14,7 @@ function Projects (){
         },
         {
             name: 'Portfolio v1',
-            description: 'My first portfolio uilt using static HTML and JavaScript',
+            description: 'My first portfolio',
             img: '1',
             alt: 'My first portfolio',
             repo: 'https://github.com/Cluce059/Portofolio',
@@ -22,7 +22,7 @@ function Projects (){
         },
         {
             name: 'Trivia Brews',
-            description: 'A trivi game with brewery proximity feature',
+            description: 'A trivia game with brewery proximity feature',
             img: '2',
             alt: 'Trivia Brews',
             repo: 'https://github.com/Cluce059/TriviaBrews',
@@ -46,7 +46,7 @@ function Projects (){
         },
         {
             name: 'News Distillery',
-            description: '',
+            description: 'News Search Application (no-cors is enabled in production environment)',
             img: '6',
             alt: 'News',
             repo: 'https://github.com/Cluce059/fitness-buddy-v2',
