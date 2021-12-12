@@ -10,7 +10,6 @@ main {
   --tertiary: #0f0533;
   --gradient: radial-gradient(circle, rgba(240,235,238,0.8802871490393032) 0%, rgba(184,197,211,1) 51%, rgba(184,206,230,0.9531162806919643) 105%);
 
-  --light: #fafafa;
   --dark: #0f0a11;
   --darker: #0a0a0a;
   --error: rgb(228, 46, 1);
@@ -106,7 +105,7 @@ body {
 body {
   display: block;
   background: var(--gradient); 
-  color: var(--light);
+  color: #252525;
   font-size: 18px;
   letter-spacing: .1em;
   font-weight: 550;
@@ -137,9 +136,7 @@ nav a:hover {
   color: rgb(121 250 204);
 }
 
-header a {
-  color: var(--light);
-}
+
 
 .navbar-container{
   align-items: flex-end;
