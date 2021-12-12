@@ -160,7 +160,6 @@ nav a:hover {
 
 button {
   font-size: 1rem;
-  color: var(--light);
   text-decoration: none;
   padding: 0.25rem 1rem;
   border-radius: .25rem;

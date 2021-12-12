@@ -26,7 +26,7 @@
   :exclamation: 
   Explore the app
   ## URL
-http://cluce059.github.io/portfolio
+  https://luceport.herokuapp.com/
   ## Questions
   :alien: See my contact section!<br />
   <br />
