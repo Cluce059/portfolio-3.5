@@ -4,53 +4,53 @@ import { Container, Row } from 'react-bootstrap';
 
 function Projects (){
     const projects = [
+        {
+            name: 'Fungi Catelogue',
+            description: 'A personal project - pictures of cool fungi I come across (IN DEVELOPMENT => Link to Github Repo)',
+            img: '0',
+            alt: 'Fungi Portfolio',
+            repo: 'https://github.com/Cluce059/Fungi-Portfolio',
+            link: 'https://github.com/Cluce059/Fungi-Portfolio'
+        },
+        {
+            name: 'News Distillery',
+            description: 'News Search Application (no-cors is enabled in production environment)',
+            img: '1',
+            alt: 'News',
+            repo: 'https://github.com/Cluce059/fitness-buddy-v2',
+            link: 'https://news-distillery.herokuapp.com/'
+        },
         {  
             name: 'Fitness Buddy',
             description: 'A Fitness Application for personalized workout plans',
-            img: '0',
+            img: '2',
             alt: 'Fitness Buddy',
             repo: 'https://github.com/Cluce059/Fitness-Buddy',
             link: 'https://fitness-buddy-2.herokuapp.com/'
         },
         {
-            name: 'Portfolio v1',
-            description: 'My first portfolio',
-            img: '1',
-            alt: 'My first portfolio',
-            repo: 'https://github.com/Cluce059/Portofolio',
-            link: 'https://cluce059.github.io/Portofolio/'
-        },
-        {
             name: 'Trivia Brews',
             description: 'A trivia game with brewery proximity feature',
-            img: '2',
+            img: '3',
             alt: 'Trivia Brews',
             repo: 'https://github.com/Cluce059/TriviaBrews',
             link: 'https://cluce059.github.io/Project1/'
         },
         {
-            name: 'Food Festival',
-            description: 'Food festival app for finding tickets and events',
-            img: '3',
-            alt: 'Food Festival',
-            repo: 'https://github.com/Cluce059/food-festival',
-            link: 'https://cluce059.github.io/food-festival/'
-        },
-        {
             name: 'Portfolio v2',
             description: 'My second portfolio',
-            img: '5',
+            img: '4',
             alt: 'Portfolio-v2',
             repo: 'https://github.com/Cluce059/portfolio',
             link: '/'
         },
         {
-            name: 'News Distillery',
-            description: 'News Search Application (no-cors is enabled in production environment)',
-            img: '6',
-            alt: 'News',
-            repo: 'https://github.com/Cluce059/fitness-buddy-v2',
-            link: 'https://news-distillery.herokuapp.com/'
+            name: 'Portfolio v1',
+            description: 'My first portfolio',
+            img: '5',
+            alt: 'My first portfolio',
+            repo: 'https://github.com/Cluce059/Portofolio',
+            link: 'https://cluce059.github.io/Portofolio/'
         }
         ];
 
