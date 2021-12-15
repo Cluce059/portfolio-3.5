@@ -1,4 +1,8 @@
-
+:root{
+  --navy: rgba(161, 182, 204, 0.953);
+  --dark: #252525;
+}
+  
   a {
     text-decoration: none;
     color: #252525;
@@ -37,75 +41,27 @@ h1, h2, h3, h4 {
     margin: 5px;
     font-size: 22px;
     background-color: #afb8c256;
-    border-color: transparent;
+    color: white !important;
+    border: 2px solid var(--dark);
 }
 
-.contact-btn {
-  color:#454545;
-  background:transparent;
-  border-width:2px;
-  border-style: solid;
-  position:relative;
-  margin:1em;
-  display:inline-block;
-  padding:0.5em 1em;
-  transition:all 0.3s ease-in-out;
-  text-align:center;
-  font-weight:bold;
+.contact-btn a:hover {
+  color: var(--navy);
 }
 
-.contact-btn:focus{
-   outline: none;
-   border: transparent;
-   background: transparent;
-}
-.contact-btn:before, button:after {
-    content:'';
-    display:block;
-    position:absolute;
-    border-color:#454545;
-    box-sizing:border-box;
-    border-style:solid;
-    width:1em;
-    height:1em;
-    transition:all 0.4s ease-in-out
-  }
-  .contact-btn:before {
-    top:-6px;
-    left:-6px;
-    border-width:2px 0 0 2px;
-    z-index:5;
-  }
-  .contact-btn:after {
-    bottom:-6px;
-    right:-6px;
-    border-width:0 2px 2px 0;
-  }
-  .contact-btn:hover:before, .contact-btn:hover:after {
-    width:calc(100% + 12px);
-    height:calc(100% + 12px);
-    border-color:transparent;
-  }
-  .contact-btn:hover {
-    color:#353535;
-    background-color: transparent;
-    border-color:#353535;
-  }
+.contact-btn span:hover{
+  color: var(--navy);
 
-.btn-border {
-  border-color:transparent;
-  color:#999
 }
-.btn-border {
-  border-color:transparent;
-  background-color:transparent;
-  color:#353535
+
+.contact-btn:hover{
+  background-color: var(--dark);
+  color: white !important;
+  border: 2px solid var(--dark);
 }
-.btn-border:before, .btn-border:after {
-  border-color:transparent;
-}
-.btn-border:hover:before, .btn-border:hover:after {
-  width:calc(100% + 12px); 
-  height:calc(100% + 12px);
-  border-color:transparent;
+
+.contact-btn:disabled:hover {
+  background-color: var(--dark);
+  color: white!important;
+  cursor: wait;
 }
