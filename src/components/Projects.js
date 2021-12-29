@@ -5,7 +5,7 @@ import { Container, Row } from 'react-bootstrap';
 function Projects (){
     const projects = [
         {
-            name: 'Fungi Catelogue',
+            name: 'Fungi Catalog',
             description: 'A personal project - pictures of cool fungi I come across (IN DEVELOPMENT => Link to Github Repo)',
             img: '0',
             alt: 'Fungi Portfolio',
