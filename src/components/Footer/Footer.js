@@ -1,6 +1,6 @@
 import React from 'react';
 import * as FaIcons from 'react-icons/fa';
-import resume from '../../assets/files/Luce-resume.C.pdf';
+import resume from '../../assets/files/Luce-resume.pdf';
 import './footer.css';
 
 function Footer () {

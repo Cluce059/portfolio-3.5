@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import Jumbotron from '../Jumbotron';
-import resume from '../../assets/files/Luce-resume.C.pdf';
+import resume from '../../assets/files/Luce-resume.pdf';
 import * as FaIcons from 'react-icons/fa';
 import './contact.css';
 import {Button} from 'react-bootstrap';
